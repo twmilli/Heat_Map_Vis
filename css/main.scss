@@ -2,6 +2,55 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-html{
-  color: blue;
+.axis{
+  line,path{
+    fill: none;
+    shape-rendering: crispEdges;
+  }
+
+  text{
+    font-family: sans-serif;
+  }
+  &.xaxis{
+    stroke: black;
+    stroke-width: .99px;
+    font-size: 12px;
+    text-decoration: none;
+  }
+}
+
+.title{
+  font-size: 36px;
+}
+
+.sub{
+  font-size: 12px;
+}
+
+.tip{
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 4px;
+
+  #date{
+    font-size: 24px;
+    padding: 3px;
+  }
+
+  #temp{
+    font-size: 16px;
+    padding: 3px;
+  }
+}
+
+.legend{
+  text{
+    font-size: 14px;
+  }
+}
+
+.axis-label{
+  font-size: 20px;
 }
